@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practical2.css">
+    <title>Forms, Tables, Links and Images in HTML</title>
+</head>
+<body>
+    <section class="container">
+        <header class="heading">
+            <section class="headingtext">
+                <h2>
+                    STUDENT REGISTRATION FORM
+                </h2>
+            </section>
+            <br>
+            <section class="image">
+                <img src="https://zestechinc.com/wp-content/uploads/2017/02/registration.jpg" alt="">
+            </section>
+            <br>
+        </header>
+        <section class="forms">
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <h4><label for="name">NAME : </label></h4>
+                        </td>
+                        <td>
+                            <input type="text" id="name" maxlength="30">
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <h4><label for="rollno.">ROLL NUMBER. : </label><h4>
+                        </td>
+                        <td>
+                            <input type="number" id="rollno." maxlength="5">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4><label for="phoneNo.">PHONE NUMBER : </label><h4>
+                        </td>
+                        <td>
+                            <input type="number" id="phoneNo." maxlength="10">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4> <label for="emailId.">EMAIL ID. : </label><h4>
+                        </td>
+                        <td>
+                            <input type="email" id="emailId.">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4> <label for="password">PASSWORD : </label><h4>
+                        </td>
+                        <td>
+                            <input type="password" id="password" minlength="8">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4> <label for="gender">GENDER : &nbsp; </label><h4>
+                        </td>
+                        <td>
+                        Male
+                        <input type="radio" name="mygender" id="gender">
+                        Female
+                        <input type="radio" name="mygender" id="gender">
+                        Other
+                        <input type="radio" name="mygender" id="gender">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4><label for="dob">DATE OF BIRTH : </label><h4>
+                        </td>
+                        <td>
+                            <input type="date" id="dob" >
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                            <h4> <label for="qualification">EDUCATIONAL QUALIFICATION : </label><h4>
+                        </td>
+                        <td>
+                            <select id="qualification">
+                                <option value="select">Select</option>
+                                <option value="matriculation">Matriculation</option>
+                                <option value="highschool">High School</option>
+                                <option value="diploma">Diploma</option>
+                                <option value="graduation">Graduation</option>
+                                <option value="postgraduation">Post-Graduation</option>
+                                <option value="phd">Doctrate Degree</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <h4> <label for="address">ADDRESS : </label><h4>
+                        </td>
+                        <td>
+                            <textarea  id="address" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4><label for="pin">PIN CODE : </label><h4>
+                        </td>
+                        <td>
+                            <input type="number" id="pin" minlength="6">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4><label for="city">CITY : </label><h4>
+                        </td>
+                        <td>
+                            <input type="text" id="city" >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4><label for="state">STATE : </label><h4>
+                        </td>
+                        <td>
+                            <input type="text" id="state" >
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h4><label for="country">COUNTRY : </label><h4>
+                        </td>
+                        <td>
+                            <input type="text" id="country" >
+                        </td>
+                    </tr>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4> <label for="hobbies">HOBBIES : </label><h4>
+                        </td>
+                    <td>
+                        <input type="checkbox" id="hobbies"> Dancing 
+                        <input type="checkbox" id="hobbies"> Singing 
+                        <input type="checkbox" id="hobbies"> Reading 
+                        <input type="checkbox" id="hobbies"> Sleeping 
+                        <input type="checkbox" id="hobbies"> Others 
+                        <textarea name="hobby-other" id="" cols="30" rows="2"></textarea>
+                    </td>
+                    </tr>
+                
+                    <section class="submission">
+                        <tr>
+                            <td>
+                                <input type="submit" value="  SUBMIT NOW!!  ">
+                            </td>
+                        
+                            <td>
+                                <input type="reset" value="  RESET NOW!!  ">
+                            </td>
+                    </tr>
+                    </section>
+                </table>
+                <br>
+            </form>
+        </section>
+        <footer>
+            <h5>
+                <i> To visit the College website, click on the following link : 
+                <a href="https://ccet.ac.in/" target="_blank">Chandigarh College of Engineering and Technology, Chandigarh</a></i>
+            </h5>
+        </footer>
+    </section>
+</body>
+</html>

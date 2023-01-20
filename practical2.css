@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+ 
+    width: 100%;
+    border-radius: px;
+    max-width: 600px;
+    min-height: 1000px;
+    background: rgb(255, 255, 255);
+    margin: 30px;
+    margin-top: 200px;
+    margin-left: 1650px;
+    display: list-item;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.heading
+{
+    margin-top: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #003147 0%, rgb(2, 4, 107) 100%);
+    background-color: #003147;
+
+}
+
+.heading .headingtext h2
+{
+    padding-top: 30px;
+    color: aliceblue;
+}
+
+.heading .image img
+{
+    width: 380px;
+    height: 200px;
+}
+
+.forms
+{
+    background: linear-gradient(to bottom, #dbf6fe 0%, #ffffff 100%);
+    padding-top: 20px;
+}
+
+.forms table
+{
+    margin: auto;  
+}
+
+.forms table tr td
+{
+    width: 270px;
+    height: 30px;
+}
+
+.submission tr td
+{
+    display: inline-block;
+}
+
+footer
+{
+    padding: 35px;
+    background: linear-gradient(to bottom, #003147 0%, rgb(2, 4, 107) 100%);
+}
+
+footer h5
+{
+    text-align: center;
+    color: #ffffff;
+}
+
+footer h5 a 
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
